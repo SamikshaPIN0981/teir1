@@ -1,0 +1,143 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.content {
+    flex: 1;
+}
+
+/* Header */
+.header {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 12%;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.header .logo:hover {
+    color: orangered;
+    text-shadow: 0 0 15px orangered, 0 0 30px orangered;
+}
+
+.header .logo span {
+    color: orangered;
+}
+
+/* Education Section */
+.education {
+    padding: 70px 12%;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 48px;
+    color: orangered;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.timeline-item {
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item:hover {
+    background: #ffffff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+}
+
+.degree {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.institution {
+    font-size: 22px;
+    color: orangered;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.details {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: auto;  /* Ensures footer is at the bottom */
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .timeline-item {
+        padding: 20px;
+    }
+
+    .degree {
+        font-size: 24px;
+    }
+
+    .institution {
+        font-size: 18px;
+    }
+
+    .details {
+        font-size: 16px;
+    }
+}

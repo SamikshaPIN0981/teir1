@@ -1,0 +1,46 @@
+/* Thank You Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .thank-you-container {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .thank-you-container h1 {
+    font-size: 40px;
+    color: orangered;
+  }
+  
+  .thank-you-container p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: white;
+    color: orangered;
+    border: 2px solid orangered;
+  }
+  
